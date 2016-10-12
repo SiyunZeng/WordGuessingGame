@@ -5,7 +5,7 @@ confirm("Welcome to Siyun's Word Guessing Game. Now play!")
 var theWord = ["c", "r", "a", "b"];
 var guessedLetters  = ["_", "_", "_", "_"];
 
-console.log (guessedLetters)
+console.log (guessedLetters);
 
 function guessLetter(letter) {
     var correctGuess = false;
